@@ -1,0 +1,19 @@
+.radio input[type='radio']:checked + .radio-label.true:before {
+  background-color: #18BC9C;
+  box-shadow: inset 0 0 0 4px #f4f4f4;
+}
+.radio input[type='radio']:checked + .radio-label.false:before {
+  background-color: #E74C3C;
+  box-shadow: inset 0 0 0 4px #f4f4f4;
+}
+.card-body {
+  padding-top: 0;
+}
+.answers {
+  margin-left: 45px;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+details {
+  margin-left: 55px;
+}
